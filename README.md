@@ -1,16 +1,41 @@
-# React + Vite
+# To-Do App – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interfaz web desarrollada con React + Vite + Tailwind CSS, conectada a un backend en Node.js y MySQL.  
+Permite a los usuarios registrar, visualizar, editar y completar tareas en tiempo real.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Instrucciones de instalación (local)
 
-## React Compiler
+1. Clonar este repositorio o descargarlo como ZIP.  
+2. Instalar dependencias:
+   ```bash
+   npm install
+   
+3. En el archivo src/services/api.js, asegúrate que la base URL apunte a nuestro backend local o en la nube tienes que ver algo como esto:
+const API = axios.create({
+  baseURL: "http://localhost:3000/api",
+});
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+4. Luego en la consola escribe esto:
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Luego abre en el navegador este link:
+http://localhost:5173
+
+Si necesitas un usuario de prueba es el siguiente:
+Email: demo@example.com
+Contraseña: password123
+
+Pero puedes crear el tuyo sin ningun problema en la seccion de *register* para que puedas ingresar tus propias Tareas
+
+# Dependencias principales
+
+react
+react-dom
+react-router-dom
+axios
+tailwindcss
+sweetalert2
+react-toastify
+react-icons
