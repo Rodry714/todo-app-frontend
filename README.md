@@ -25,11 +25,7 @@ const API = axios.create({
 Luego abre en el navegador este link:
 http://localhost:5173
 
-Si necesitas un usuario de prueba es el siguiente:
-Email: UserPrueba@gmail.com
-Contraseña: 12345
-
-Pero puedes crear el tuyo sin ningun problema en la seccion de *register* para que puedas ingresar tus propias Tareas
+Sientete en la libertad de poder crear tu propio usuario para que se vea reflejado la base de datos
 
 # Dependencias principales
 
