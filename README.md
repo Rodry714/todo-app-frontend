@@ -18,24 +18,33 @@ const API = axios.create({
 
 
 4. Luego en la consola escribe esto:
-npm run dev
+
+   ```bash
+   npm run dev
 
 Luego abre en el navegador este link:
 http://localhost:5173
 
 Si necesitas un usuario de prueba es el siguiente:
-Email: demo@example.com
-Contraseña: password123
+Email: UserPrueba@gmail.com
+Contraseña: 12345
 
 Pero puedes crear el tuyo sin ningun problema en la seccion de *register* para que puedas ingresar tus propias Tareas
 
 # Dependencias principales
 
 react
+
 react-dom
+
 react-router-dom
+
 axios
+
 tailwindcss
+
 sweetalert2
+
 react-toastify
+
 react-icons
